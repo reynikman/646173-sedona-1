@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Седона</title>
+  </head>
+  <body>
+  	<header class="page-header">
+  		<nav class="menu">
+  			<ul class="main-menu">
+  				<li class="mein-menu__item"><a href="info.html">Информация</a></li>
+  				<li class="mein-menu__item"><a href="galary.html">Фото и видео</a></li>
+  				<li class="mein-menu__item"><a class="page-main_logo"><img src="img/" alt="Главная"></a></li>
+  				<li class="mein-menu__item"><a href="map.html">Карта штата</a></li>
+  				<li class="main-menu__item" action><a href="hostels.html" >Гостиницы</a></li>
+  			</ul>
+  		</nav>
+  	</header>
+  	<main>
+  		<section class="filter">
+  			<form action="" method="post">
+  				<fieldset class="filter__first">
+  					<legend>Инфраструктура:</legend>
+  					<input type="checkbox" name="pool_check" id="pool" checked>
+  					<label for="pool">Бассейн</label>
+  					<input type="checkbox" name="parking_check" id="parking">
+  					<label for="parking">Парковка</label>
+  					<input type="checkbox" name="wi-fi_check" id="wi-fi">
+  					<label for="wi-fi">wi-fi</label>
+  				</fieldset>
+  				<fieldset class="filter__first">
+  					<legend>Тип жилья:</legend>
+  					<input type="checkbox" name="hostel_check" id="hostel" checked>
+  					<label for="hostel">Гостиница</label>
+  					<input type="checkbox" name="motel_check" id="motel" checked>
+  					<label for="motel">Мотель</label>
+  					<input type="checkbox" name="apart_check" id="apart" checked>
+  					<label for="apart">Апартаменты</label>
+  				</fieldset>
+  			</form>
+  		</section>
+  		<section class="hostels_found">
+  			<ul class="hostels_found__list">
+  				<li class="hostels_found__element">
+  					<div class="hostels_found__tree">
+  						Найдено 3
+  					</div>
+  				</li>
+  				<li class="hostels_found__element">Сортировка:</li>
+  				<li class="hostels_found__element">
+  					<a href="#" class="hostels_found__element_price hostels_found__element_price--active">По цене:</li>
+  				<li class="hostels_found__element">
+  					<a href="#" class="hostels_found__element_type">По типу:</li>
+  				<li class="hostels_found__element">
+  					<a href="#" class="hostels_found__element_rate">По рейтингу:</li>
+  				<li class="hostels_found__element">
+  					<a href="#" class="hostels_found__element_icon_up">
+  						<img scr="img/icon-up-dir.svg" alt="up">
+  					</a>
+  				</li>
+  				<li class="hostels_found__element">
+  					<a href="#" class="hostels_found__element_icon_down">
+  						<img scr="img/icon-down-dir.svg" alt="down">
+  					</a>
+  				</li>
+  			</ul>
+  		<hr>
+
+
+
+  	</main>
+  	<footer class="page-footer">
+  		<p class="tag"> #visitsedona</p>
+  		<ul>
+  			<li><a class="social-button" href="#"> Вконтакте </a></li>
+  			<li><a class="social-button" href="#"> Фейсбук </a></li>
+  			<li><a class="social button" href="#"> Инстаграм </a></li>
+  		</ul>
+  		<p class="website_by">
+  			<img src="img/logo-htmlacademy.svg" alt="htmlacademy">
+  			<a class="button" href="https://htmlacademy.ru"></a>
+  		</p>
+  	</footer>
+  </body>
+</html>
